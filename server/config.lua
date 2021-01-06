@@ -244,10 +244,10 @@
 	-- NOTE: experienceStages configuration is located in data/XML/stages.xml.
 	-- rateExperienceFromPlayers 0 to disable.
 	experienceStages = true
-	rateExperience = 9.0
+	rateExperience = 3.0
 	rateExperienceFromPlayers = 0
-	rateSkill = 9.0
-	rateMagic = 9.0
+	rateSkill = 3.0
+	rateMagic = 3.0
 	rateLoot = 1.0
 	rateSpawn = 1
 
