@@ -620,19 +620,19 @@ function setPlayerIcons(cid, ball, status)
         setPlayerMagicLevel(cid, pokemonLevel)
         doPlayerUpdatePokemonLevelPercent(cid, getBallPokemonExp(ball.uid), pokemonLevel)
 
-        doTransformItem(getPlayerSlotItem(cid, PLAYER_SLOT_EVOLVE).uid, EVOLVE_ICON_ID)
+        --doTransformItem(getPlayerSlotItem(cid, PLAYER_SLOT_EVOLVE).uid, EVOLVE_ICON_ID)
         doTransformItem(getPlayerSlotItem(cid, PLAYER_SLOT_ORDER).uid, ORDER_ICON_ID)
         doPlayerUpdatePokemonIcons(cid, getBallPokemonName(ball.uid))
 
         if (not isDueling(cid)) then
-            doTransformItem(getPlayerSlotItem(cid, PLAYER_SLOT_DUEL).uid, DUEL_ICON_ID)
+            --doTransformItem(getPlayerSlotItem(cid, PLAYER_SLOT_DUEL).uid, DUEL_ICON_ID)
         end
 
     else
         setPlayerMagicLevel(cid, 0)
         setPlayerMagicLevelPercent(cid, 0)
         doRemoveItem(getPlayerSlotItem(cid, PLAYER_SLOT_PORTRAIT).uid)
-        doTransformItem(getPlayerSlotItem(cid, PLAYER_SLOT_EVOLVE).uid, EVOLVE_ICON_OFF_ID)
+        --doTransformItem(getPlayerSlotItem(cid, PLAYER_SLOT_EVOLVE).uid, EVOLVE_ICON_OFF_ID)
         doTransformItem(getPlayerSlotItem(cid, PLAYER_SLOT_ORDER).uid, ORDER_ICON_OFF_ID)
         --doTransformItem(getPlayerSlotItem(cid, PLAYER_SLOT_DUEL).uid, DUEL_ICON_OFF_ID)
         --New

@@ -18,12 +18,12 @@
 	// As far as I know, OTX is based on TFS_03, so make sure TFS version is configured TFS_03
 	$config['CustomVersion'] = false;
 
-	$config['site_title'] = 'Poke Aimar';
+	$config['site_title'] = 'Pokedex';
 	$config['site_title_context'] = 'Fan Made Poketibia Game';
-	$config['site_url'] = "http://localhost";
+	$config['site_url'] = "http://pokedex.sytes.net/Pokedex/Site";
 
 	// Path to server folder without "\" (or "/") at the end, ex: C:\Users\Username\Documents\GitHub\forgottenserver
-	$config['server_path'] = '';
+	$config['server_path'] = 'C:\xampp\htdocs\Pokedex\Servidor';
 
 	// ------------------------ \\
 	// MYSQL CONNECTION DETAILS \\
@@ -36,10 +36,10 @@
 	$config['sqlPassword'] = '';
 
 	// The database name to connect to. (This is usually same as username).
-	$config['sqlDatabase'] = 'poketibia';
+	$config['sqlDatabase'] = 'pokedex';
 
 	// Hostname is usually localhost or 127.0.0.1.
-	$config['sqlHost'] = '127.0.0.1';
+	$config['sqlHost'] = 'localhost';
 
 	// QR code authenticator Only works with TFS 1.2+
 	$config['twoFactorAuthenticator'] = false;
@@ -274,7 +274,7 @@
 			'fromVoc' => false
 		),
 		1 => array(
-			'name' => 'Treinador Pokemon',
+			'name' => 'Pokemon Trainer',
 			'fromVoc' => false
 		)
 	);
@@ -284,14 +284,14 @@
 		- Currently used for admin_skills page. */
 	$config['vocations_gain'] = array(
 		0 => array(
-			'hp' => 5,
-			'mp' => 5,
-			'cap' => 10
+			'hp' => 30,
+			'mp' => 30,
+			'cap' => 1
 		),
 		1 => array(
-			'hp' => 5,
+			'hp' => 30,
 			'mp' => 30,
-			'cap' => 10
+			'cap' => 1
 		)
 	);
 	// Town ids and names: (In RME map editor, open map, click CTRL + T to view towns, their names and their IDs.
@@ -326,9 +326,12 @@
 	// Leave on black square in map and player should get teleported to their selected town.
 	// If chars get buggy set this position to a beginner location to force players there.
 	$config['default_pos'] = array(
-		'x' => 5,
-		'y' => 5,
-		'z' => 2,
+		//'x' => 5000,
+		//'y' => 805,
+		//'z' => 6,
+		'x' => 4946,
+		'y' => 792,
+		'z' => 7,
 	);
 
 	$config['war_status'] = array(
@@ -351,7 +354,7 @@
 	// ---------------- \\
 
 	// Max characters on each account:
-	$config['max_characters'] = 7;
+	$config['max_characters'] = 10;
 
 	// Available character vocation users can choose (specify vocation ID).
 	$config['available_vocations'] = array(1);
@@ -362,15 +365,15 @@
 
 	$config['player'] = array(
 		'base' => array(
-			'level' => 8,
-			'health' => 185,
-			'mana' => 90,
-			'cap' => 470,
-			'soul' => 100
+			'level' => 10,
+			'health' => 300,
+			'mana' => 300,
+			'cap' => 6,
+			'soul' => 10,
 		),
 		// Health, mana cap etc are calculated with $config['vocations_gain'] and 'base' values of $config['player']
 		'create' => array(
-			'level' => 8,
+			'level' => 10,
 			'novocation' => array( // Vocation id 0 (No vocation) special settings
 				'level' => 1,
 				'forceTown' => true,
@@ -379,25 +382,25 @@
 			'skills' => array( // See $config['vocations'] for proper vocation names of these IDs
 				// No vocation
 				0 => array(
-					'magic' => 0,
-					'fist' => 10,
-					'club' => 10,
-					'axe' => 10,
-					'sword' => 10,
-					'dist' => 10,
-					'shield' => 10,
-					'fishing' => 10,
+					'magic' => 10,
+					'fist' => 1,
+					'club' => 2,
+					'axe' => 3,
+					'sword' => 4,
+					'dist' => 5,
+					'shield' => 6,
+					'fishing' => 7,
 				),
 				// Sorcerer
 				1 => array(
-					'magic' => 0,
-					'fist' => 10,
-					'club' => 10,
-					'axe' => 10,
-					'sword' => 10,
-					'dist' => 10,
-					'shield' => 10,
-					'fishing' => 10,
+					'magic' => 10,
+					'fist' => 1,
+					'club' => 2,
+					'axe' => 3,
+					'sword' => 4,
+					'dist' => 5,
+					'shield' => 6,
+					'fishing' => 7,
 				),
 				// Druid
 				2 => array(

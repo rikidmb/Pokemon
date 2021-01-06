@@ -55,7 +55,7 @@
 	-- NOTE: showHealingDamageForMonsters inheritates from showHealingDamage.
 	-- loginProtectionPeriod is the famous Tibia anti-magebomb system.
 	-- deathLostPercent set to nil enables manual mode.
-	worldType = "no-pvp"
+	worldType = "pvp"
 	protectionLevel = 1
 	pvpTileIgnoreLevelAndVocationProtection = true
 	pzLocked = 5 * 1000
@@ -85,8 +85,8 @@
 
 	-- Connection config
 	worldId = 0
-	ip = "127.0.0.1"
-	bindOnlyConfiguredIpAddress = true
+	ip = "pokedex.sytes.net"
+	bindOnlyConfiguredIpAddress = false
 	loginPort = 7564
 	gamePort = 8548
 	adminPort = 7180
@@ -115,7 +115,7 @@
 	sqlPort = 3306
 	sqlUser = "root"
 	sqlPass = ""
-	sqlDatabase = "poketibia"
+	sqlDatabase = "pokedex"
 	sqlFile = ""
 	sqlKeepAlive = 0
 	mysqlReadTimeout = 10
@@ -244,10 +244,10 @@
 	-- NOTE: experienceStages configuration is located in data/XML/stages.xml.
 	-- rateExperienceFromPlayers 0 to disable.
 	experienceStages = true
-	rateExperience = 1.0
+	rateExperience = 9.0
 	rateExperienceFromPlayers = 0
-	rateSkill = 1.0
-	rateMagic = 1.0
+	rateSkill = 9.0
+	rateMagic = 9.0
 	rateLoot = 1.0
 	rateSpawn = 1
 
@@ -311,10 +311,10 @@
 	teleportPlayerSummons = true
 
 	-- Status
-	ownerName = "PSoul"
-	ownerEmail = "contact@psoul.net"
-	url = "http://www.psoul.net/"
-	location = "EUA"
+	ownerName = "Pokedex"
+	ownerEmail = "contact@pokedex.net"
+	url = "http://www.pokedex.net/"
+	location = "USA"
 	displayGamemastersWithOnlineCommand = false
 
 	-- Logs
@@ -333,7 +333,7 @@
 	deathLossExperience = false
 	deathProtection = 20 -- Death loss experience after this level
     updateHighscores = false
-    rateCatch = 1.0
+    rateCatch = 9.0
 	advancedSave = false
 	disconnectAtExit = true
 	defaultTownId = 3 -- Cerulean
