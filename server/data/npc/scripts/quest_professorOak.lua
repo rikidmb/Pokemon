@@ -118,11 +118,11 @@ npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, function(cid, type, msg)
             selfSay("{YES} or {NO}", cid)
             selfSay("You really want Torchic?", cid)
 
-        elseif (msgcontains(msg, 'marshtomp')) then
-            lastChoice[cid] = 'Marshtomp'
+        elseif (msgcontains(msg, 'mudkip')) then
+            lastChoice[cid] = 'Mudkip'
             npcHandler.talkState[cid] = TALKSTATE_CONFIRM
             selfSay("{YES} or {NO}", cid)
-            selfSay("You really want a Marshtomp?", cid)
+            selfSay("You really want a Mudkip?", cid)
 			
 		
 
@@ -131,20 +131,20 @@ npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, function(cid, type, msg)
                 selfSay("Your Pokemon will be {female} or {male}?", cid)
                 npcHandler.talkState[cid] = TALKSTATE_CONFIRM_SEX
             else
-                selfSay("You can choose a {Charmander} or a {Squirtle} or a {Bulbasaur} or a {Chikorita} or a {Cyndaquil} or a {Totodile} or a {Treecko} or a {Torchic} or a {Marshtomp}. What is your choice?", cid)
+                selfSay("You can choose a {Charmander} or a {Squirtle} or a {Bulbasaur} or a {Chikorita} or a {Cyndaquil} or a {Totodile} or a {Treecko} or a {Torchic} or a {Mudkip}. What is your choice?", cid)
                 npcHandler.talkState[cid] = nil
             end
 
         elseif (npcHandler.talkState[cid] == TALKSTATE_CONFIRM_SEX) then
             local sex = nil
-            if (msgcontains(msg, 'female') or msgcontains(msg, 'femea')) then
+            if (msgcontains(msg, 'female') or msgcontains(msg, 'hembra')) then
                 sex = POKEMON_SEX_FEMALE
             elseif (msgcontains(msg, 'male') or msgcontains(msg, 'macho')) then
                 sex = POKEMON_SEX_MALE
             end
 
             if (sex) then
-                doCreatePokemonBall(cid, "soul", lastChoice[cid], 5, sex, nil, 14, cid, false, 999999, nil, nil, nil, nil, nil, nil, nil, nil, nil, function(ball) setBallOriginalTrainer(ball, cid) end)
+                doCreatePokemonBall(cid, "ultra", lastChoice[cid], 20, sex, nil, 25, cid, false, 999999, nil, nil, nil, nil, nil, nil, nil, nil, nil, function(ball) setBallOriginalTrainer(ball, cid) end)
                 setPlayerGotStarterPokemon(cid, true)
                 doPlayerAddMainItems(cid)
                 doCreatureSetStorage(cid, FIRST_POKEMON_STORAGE, QUEST_STATUS.FINISHED)
