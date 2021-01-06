@@ -20,7 +20,7 @@
 
 	$config['site_title'] = 'Pokemon';
 	$config['site_title_context'] = 'Fan Made Poketibia Game';
-	$config['site_url'] = "http://pokedex.sytes.net/Pokemon/site";
+	$config['site_url'] = "http://pokedex.sytes.net/Pokemon/www";
 
 	// Path to server folder without "\" (or "/") at the end, ex: C:\Users\Username\Documents\GitHub\forgottenserver
 	$config['server_path'] = 'C:\xampp\htdocs\Pokemon\servidor';
@@ -329,9 +329,9 @@
 		//'x' => 5000,
 		//'y' => 805,
 		//'z' => 6,
-		'x' => 4946,
-		'y' => 792,
-		'z' => 7,
+		'x' => 5000,
+		'y' => 805,
+		'z' => 6,
 	);
 
 	$config['war_status'] = array(

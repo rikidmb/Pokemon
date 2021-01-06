@@ -40,7 +40,7 @@ npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, function(cid, type, msg)
         npcHandler.talkState[cid] = TALKSTATE_FIX_ASK
         return true
     elseif (npcHandler.talkState[cid] == TALKSTATE_FIX_ASK) then
-        if (msgcontains(msg, 'yes') or msgcontains(msg, 'sim')) then
+        if (msgcontains(msg, 'yes') or msgcontains(msg, 'si')) then
             local ball = getPlayerBall(cid)
             if (isPokemonOnline(cid) or getPlayerMounted(cid) or isEvolving(cid)) then
                 selfSay("You can not do it while you have a Pokemon out of the ball.", cid)
@@ -87,13 +87,51 @@ npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, function(cid, type, msg)
             npcHandler.talkState[cid] = TALKSTATE_CONFIRM
             selfSay("{YES} or {NO}", cid)
             selfSay("You really want a Bulbasaur?", cid)
+			
+		elseif (msgcontains(msg, 'chikorita')) then
+            lastChoice[cid] = 'Chikorita'
+            npcHandler.talkState[cid] = TALKSTATE_CONFIRM
+            selfSay("{YES} or {NO}", cid)
+            selfSay("You really want a Chikorita?", cid)
+
+        elseif (msgcontains(msg, 'cyndaquil')) then
+            lastChoice[cid] = 'Cyndaquil'
+            npcHandler.talkState[cid] = TALKSTATE_CONFIRM
+            selfSay("{YES} or {NO}", cid)
+            selfSay("You really want a Cyndaquil?", cid)
+			
+		elseif (msgcontains(msg, 'totodile')) then
+            lastChoice[cid] = 'Totodile'
+            npcHandler.talkState[cid] = TALKSTATE_CONFIRM
+            selfSay("{YES} or {NO}", cid)
+            selfSay("You really want Totodile?", cid)
+
+        elseif (msgcontains(msg, 'treecko')) then
+            lastChoice[cid] = 'Treecko'
+            npcHandler.talkState[cid] = TALKSTATE_CONFIRM
+            selfSay("{YES} or {NO}", cid)
+            selfSay("You really want a Treecko?", cid)
+			
+		elseif (msgcontains(msg, 'torchic')) then
+            lastChoice[cid] = 'Torchic'
+            npcHandler.talkState[cid] = TALKSTATE_CONFIRM
+            selfSay("{YES} or {NO}", cid)
+            selfSay("You really want Torchic?", cid)
+
+        elseif (msgcontains(msg, 'marshtomp')) then
+            lastChoice[cid] = 'Marshtomp'
+            npcHandler.talkState[cid] = TALKSTATE_CONFIRM
+            selfSay("{YES} or {NO}", cid)
+            selfSay("You really want a Marshtomp?", cid)
+			
+		
 
         elseif (npcHandler.talkState[cid] == TALKSTATE_CONFIRM) then
-            if (msgcontains(msg, { 'yes', 'sim' })) then
+            if (msgcontains(msg, { 'yes', 'si' })) then
                 selfSay("Your Pokemon will be {female} or {male}?", cid)
                 npcHandler.talkState[cid] = TALKSTATE_CONFIRM_SEX
             else
-                selfSay("You can choose a {Charmander} or a {Squirtle} or a {Bulbasaur}. What is your choice?", cid)
+                selfSay("You can choose a {Charmander} or a {Squirtle} or a {Bulbasaur} or a {Chikorita} or a {Cyndaquil} or a {Totodile} or a {Treecko} or a {Torchic} or a {Marshtomp}. What is your choice?", cid)
                 npcHandler.talkState[cid] = nil
             end
 
@@ -124,7 +162,7 @@ npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, function(cid, type, msg)
             return true
 
         else
-            selfSay("You can choose a {Charmander} or a {Squirtle} or a {Bulbasaur}. What is your choice?", cid)
+            selfSay("You can choose a {Charmander} or a {Squirtle} or a {Bulbasaur} or a {Chikorita} or a {Cyndaquil} or a {Totodile} or a {Treecko} or a {Torchic} or a {Marshtomp}. What is your choice?", cid)
         end
 
         --    elseif (getCreatureStorage(cid, FIRSTY_CITY_STORAGE) ~= QUEST_STATUS.FINISHED and
@@ -154,7 +192,7 @@ end)
 
 npcHandler:setCallback(CALLBACK_GREET, function(cid)
     if (getSamePosition(getNpcPos(), { x = 5020, y = 788, z = 7 }) and getCreatureStorage(cid, FIRST_POKEMON_STORAGE) ~= QUEST_STATUS.FINISHED) then
-        selfSay("You can choose a {Charmander} or a {Squirtle} or a {Bulbasaur}. What is your choice?", cid)
+        selfSay("You can choose a {Charmander} or a {Squirtle} or a {Bulbasaur} or a {Chikorita} or a {Cyndaquil} or a {Totodile} or a {Treecko} or a {Torchic} or a {Marshtomp}. What is your choice?", cid)
         npcHandler:addFocus(cid)
         return false
     end
