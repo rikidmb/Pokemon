@@ -1,0 +1,18 @@
+[Warning][Tue Jan 05 19:04:40 2021]: tournament:checkPlayerTokens - Player carrying tokens from another player! Bug abuse!
+    Var 1 : GOD    Var 2 : 0    Var-Table3 actionid : 0    Var-Table3 uid : 70188    Var-Table3 itemid : 14648    Var-Table3 type : 100
+[Warning][Tue Jan 05 19:28:09 2021]: doHighscoreCheck - updateHighscores is off.
+
+[Warning][Tue Jan 05 19:28:09 2021]: doTournamentHighscoreCheck - updateHighscores is off.
+
+[Warning][Tue Jan 05 19:28:09 2021]: doHighscoreTextUpdate - updateHighscores is off.
+
+[Warning][Tue Jan 05 19:28:09 2021]: Ranks Update - updateHighscores is off.
+
+[Warning][Tue Jan 05 19:31:02 2021]: doHighscoreCheck - updateHighscores is off.
+
+[Warning][Tue Jan 05 19:31:02 2021]: doTournamentHighscoreCheck - updateHighscores is off.
+
+[Warning][Tue Jan 05 19:31:02 2021]: doHighscoreTextUpdate - updateHighscores is off.
+
+[Warning][Tue Jan 05 19:31:02 2021]: Ranks Update - updateHighscores is off.
+
