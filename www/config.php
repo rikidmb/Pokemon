@@ -18,12 +18,12 @@
 	// As far as I know, OTX is based on TFS_03, so make sure TFS version is configured TFS_03
 	$config['CustomVersion'] = false;
 
-	$config['site_title'] = 'Pokedex';
+	$config['site_title'] = 'Pokemon';
 	$config['site_title_context'] = 'Fan Made Poketibia Game';
-	$config['site_url'] = "http://pokedex.sytes.net/Pokedex/Site";
+	$config['site_url'] = "http://pokedex.sytes.net/Pokemon/site";
 
 	// Path to server folder without "\" (or "/") at the end, ex: C:\Users\Username\Documents\GitHub\forgottenserver
-	$config['server_path'] = 'C:\xampp\htdocs\Pokedex\Servidor';
+	$config['server_path'] = 'C:\xampp\htdocs\Pokemon\servidor';
 
 	// ------------------------ \\
 	// MYSQL CONNECTION DETAILS \\
@@ -36,7 +36,7 @@
 	$config['sqlPassword'] = '';
 
 	// The database name to connect to. (This is usually same as username).
-	$config['sqlDatabase'] = 'pokedex';
+	$config['sqlDatabase'] = 'pokemon';
 
 	// Hostname is usually localhost or 127.0.0.1.
 	$config['sqlHost'] = 'localhost';

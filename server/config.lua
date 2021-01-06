@@ -95,12 +95,12 @@
 	retryTimeout = 5 * 1000
 	loginTimeout = 60 * 1000
 	maxPlayers = 100
-	motd = "Sejá bem vindo ao Pokemon Genesis World, Treinador(a)"
+	motd = "Pokemon - Gotta Catch 'Em All"
 	displayOnOrOffAtCharlist = false
 	onePlayerOnlinePerAccount = true
 	allowClones = false
-	serverName = "Cristal"
-	loginMessage = "Bem-vindo ao Genesis World, torne-se um mestre pokémon. Passe por todas as missões, conclua as quest's e explore nossas cidades. "
+	serverName = "PokeWorlds"
+	loginMessage = "Pokemon - Gotta Catch 'Em All"
 	statusTimeout = 5 * 60 * 1000
 	replaceKickOnLogin = true
 	forceSlowConnectionsToDisconnect = false
@@ -115,7 +115,7 @@
 	sqlPort = 3306
 	sqlUser = "root"
 	sqlPass = ""
-	sqlDatabase = "pokedex"
+	sqlDatabase = "pokemon"
 	sqlFile = ""
 	sqlKeepAlive = 0
 	mysqlReadTimeout = 10
