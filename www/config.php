@@ -365,9 +365,9 @@
 
 	$config['player'] = array(
 		'base' => array(
-			'level' => 30,
-			'health' => 600,
-			'mana' => 600,
+			'level' => 10,
+			'health' => 300,
+			'mana' => 300,
 			'cap' => 6,
 			'soul' => 10,
 		),
