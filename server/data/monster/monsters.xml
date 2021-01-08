@@ -657,7 +657,7 @@
     <monster name="Meloetta" file="Pokemons/Meloetta.xml"/>
     <monster name="Genesect" file="Pokemons/Genesect.xml"/>
 	-->
-<!-- [Megas] -->	
+<!-- [Megas] 
 	<monster name="Mega Glalie" file="Megas/Mega Glalie.xml"/>
 	<monster name="Mega CharizardX" file="Megas/Mega CharizardX.xml"/>
 	<monster name="Mega CharizardY" file="Megas/Mega CharizardY.xml"/>
@@ -683,7 +683,7 @@
 	<monster name="Mega Gengar" file="Megas/Mega Gengar.xml"/>
 	<monster name="Mega Raichu" file="Megas/Mega Raichu.xml"/>
 	<monster name="Mega Blastoise" file="Megas/Mega Blastoise.xml"/>
-	<monster name="Mega Ampharos" file="Megas/Mega Ampharos.xml"/>
+	<monster name="Mega Ampharos" file="Megas/Mega Ampharos.xml"/>-->
 			 
 	<!-- BOSS / PVP ARENA -->
 	<monster name="The Kicker" file="PvpArena/the kicker.xml"/>
