@@ -391,7 +391,7 @@
 	<monster name="Plusle" file="Pokemons/plusle.xml"/>	
 	<monster name="Nincada" file="Pokemons/nincada.xml"/>	
 	<monster name="Ralts" file="Pokemons/ralts.xml"/>
-	<!-- 4th -->
+	<!-- 4th 
 	<monster name="Turtwig" file="Pokemons/Turtwig.xml"/>
     <monster name="Grotle" file="Pokemons/Grotle.xml"/>
     <monster name="Torterra" file="Pokemons/Torterra.xml"/>
@@ -499,7 +499,7 @@
     <monster name="Togekiss" file="Pokemons/Togekiss.xml"/>	
 	<monster name="Rhyperior" file="Pokemons/Rhyperior.xml"/>
 	<monster name="Tangrowth" file="Pokemons/Tangrowth.xml"/>    
-	<!-- 5th -->
+	<!-- 5th 
     <monster name="Victini" file="Pokemons/Victini.xml"/>
     <monster name="Snivy" file="Pokemons/Snivy.xml"/>
     <monster name="Servine" file="Pokemons/Servine.xml"/>
@@ -656,7 +656,7 @@
     <monster name="Keldeo" file="Pokemons/Keldeo.xml"/>
     <monster name="Meloetta" file="Pokemons/Meloetta.xml"/>
     <monster name="Genesect" file="Pokemons/Genesect.xml"/>
-	
+	-->
 <!-- [Megas] -->	
 	<monster name="Mega Glalie" file="Megas/Mega Glalie.xml"/>
 	<monster name="Mega CharizardX" file="Megas/Mega CharizardX.xml"/>
