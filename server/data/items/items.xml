@@ -8475,7 +8475,7 @@
 		<attribute key="weight" value="200" />
 	</item>
 	<item id="5926" article="a" name="skull backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="5927" article="a" name="skull bag">
@@ -16067,7 +16067,7 @@
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="10521" article="a" name="moon backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="10522" article="a" name="crown backpack">
@@ -16580,7 +16580,7 @@
 		<attribute key="weight" value="670" />
 	</item>
 	<item id="11257" article="a" name="santa backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="11258" name="dragon tapestry" />
@@ -18264,7 +18264,7 @@
 		<attribute key="maxTextLen" value="256" />
 	</item>
 	<item id="12282" article="a" name="simple pokebag">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12284" article="a" name="violet dex" />
@@ -19206,7 +19206,7 @@
 	<item id="13017" name="duel icon" />
 	<item fromid="13018" toid="13168" name="unregistered pokemon"/>
 	<item id="13169" name="next page">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="13170" name="last page">
 		<attribute key="containerSize" value="11" />
@@ -19311,7 +19311,7 @@
 		<attribute key="containerSize" value="24" />
 	</item>
 	<item id="13215" article="a" name="pikachu backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="13216" article="a" name="white poke ball backpack">
 		<attribute key="containerSize" value="24" />
@@ -19863,7 +19863,7 @@
 		<attribute key="maxTextLen" value="512" />
 	</item>
 	<item id="13499" article="a" name="locked simple pokebag">
-		<attribute key="containerSize" value="16" />
+		<attribute key="containerSize" value="60" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="13501" name="nothing special" />
@@ -24442,7 +24442,7 @@
 	<item id="18125" article="a" name="Mr. Gormandize artifacts" plural="Mr. Gormandize artifacts" />
 	<item id="18126" article="a" name="Smaug artifacts" plural="Smaug artifacts" />
 	<item id="18127" article="a" name="mysterious chest">
-		<attribute key="containerSize" value="16" />
+		<attribute key="containerSize" value="60" />
 		<attribute key="duration" value="180" />
 		<attribute key="corpseType" value="blood" />
 		<attribute key="decayTo" value="0" />
@@ -24758,7 +24758,7 @@
 	<item id="18721" article="a" name="halloween #3 clothes kit (naughty devil / skeleton)" />
 	<item id="18722" article="a" name="halloween #4 clothes kit (dark witch / vampire)" />
 	<item id="18723" article="a" name="gengar backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="18724" article="a" name="halloween pot" />
 	
@@ -25363,7 +25363,7 @@
 		<attribute key="rareEffect" value="1" />
 	</item>
 	<item id="18932" article="a" name="caterpie backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="18933" article="a" name="nightmare ball">
@@ -26136,34 +26136,34 @@
 		<attribute key="description" value="Use it to transform into 100 water gems." />
 	</item>
 	<item id="23503" article="a" name="hurricane backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="23504" article="a" name="zen backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="23505" article="a" name="vital backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="23506" article="a" name="gaia backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="23507" article="a" name="heremit backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="23508" article="a" name="voltagic backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="23509" article="a" name="blaze backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="23510" article="an" name="avalanche backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="23511" article="a" name="spectrum backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="23512" article="a" name="backpack"> <!-- unknown mastery -->
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="23513" article="a" name="held black belt" sellprice="80000">
 		<attribute key="description" value="Boosts the power of Fighting-type moves when held." />
@@ -26621,7 +26621,7 @@
 	<item fromid="24633" toid="24673" name="cake" />
 	<item id="24674" article="a" name="snow flake tapestry" />
 	<item id="24675" article="a" name="cake backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="24676" article="a" name="cake tapestry" />
@@ -27031,11 +27031,11 @@
 	<item id="25239" article="a" name="cute bear" />	
 	<item id="25240" article="a" name="grinch's santa doll" />	
 	<item id="25241" article="a" name="love backpack">	
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="25242" article="a" name="love bag">	
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="25243" article="a" name="love bear" />	
@@ -27603,19 +27603,19 @@
 	<item id="25406" article="a" name="dream curtain" />
 	<item id="25407" article="an" name="enigma curtain" />
 	<item id="25408" article="a" name="blue easter backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="25409" article="a" name="green easter backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="25410" article="a" name="red easter backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="25411" article="a" name="yellow easter backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="25412" article="a" name="blue easter doll"/>
@@ -27822,7 +27822,7 @@
     </item>
 
 	<item id="27288" article="a" name="bag">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="27425" article="a" name="master ball prototype"/>
 	<item id="27426" article="an" name="empty master ball"/>
@@ -29189,31 +29189,31 @@
 	<item id="27845" name="PSoul letter S" />
 	<item id="27846" name="PSoul letter U" />
 	<item id="27847" article="an" name="E Backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="27848" article="a" name="K Backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="27849" article="a" name="L Backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="27850" article="a" name="M Backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="27851" article="a" name="N Backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="27852" article="an" name="O Backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="27853" article="a" name="P Backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="27854" article="a" name="S Backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item id="27855" article="an" name="U Backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<item fromid="27856" toid="27934" name="floor" />
 	<item id="27935" article="an" name="anniversary token" />
@@ -29221,19 +29221,19 @@
 		<attribute key="description" value="Regeneration power - Health: +5, Energy +5." />
 	</item>
 	<item id="27937" article="a" name="PSoul backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="27938" article="a" name="ghost pillow backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="27939" article="a" name="haunted backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="27940" article="a" name="werewolf backpack">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	<!--
 	<item id="27941" article="a" name="buff potion">
@@ -29277,47 +29277,47 @@
 	</item>
 	
 	<item id="27951" article="a" name="black treasure chest">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="27952" article="a" name="blue treasure chest">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="27953" article="a" name="green treasure chest">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="27954" article="an" name="ocean treasure chest">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="27955" article="an" name="orange treasure chest">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="27956" article="a" name="pink treasure chest">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="27957" article="a" name="purple treasure chest">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="27958" article="a" name="red treasure chest">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="27959" article="a" name="treasure chest">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="27960" article="a" name="white treasure chest">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="27961" article="a" name="yellow treasure chest">
-		<attribute key="containerSize" value="36" />
+		<attribute key="containerSize" value="60" />
 	</item>
 	
 	<item id="27962" article="an" name="imperial boat decoration" />
